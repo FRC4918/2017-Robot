@@ -110,6 +110,124 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Libraries" Type="Folder">
+			<Item Name="navX Library v2" Type="Folder">
+				<Item Name="Get" Type="Folder">
+					<Item Name="Raw Values" Type="Folder"/>
+					<Item Name="System Information" Type="Folder"/>
+				</Item>
+				<Item Name="IO" Type="Folder">
+					<Item Name="Internal" Type="Folder">
+						<Item Name="SERIAL" Type="Folder"/>
+						<Item Name="SPI" Type="Folder"/>
+					</Item>
+					<Item Name="Open" Type="Folder"/>
+				</Item>
+				<Item Name="RefNum" Type="Folder"/>
+				<Item Name="Set" Type="Folder"/>
+				<Item Name="TypeDefs" Type="Folder">
+					<Item Name="Flags" Type="Folder"/>
+					<Item Name="navX Open TypeDefs" Type="Folder"/>
+				</Item>
+				<Item Name="Util" Type="Folder">
+					<Item Name="Decode Protocol" Type="Folder"/>
+					<Item Name="Encode Protocol" Type="Folder"/>
+				</Item>
+				<Item Name="navX Library v2.lvlib" Type="Library" URL="../Libraries/navX Library v2/navX Library v2.lvlib"/>
+			</Item>
+			<Item Name="TalonSRX" Type="Folder">
+				<Item Name="Pigeon" Type="Folder">
+					<Item Name="CTRE_CAN_GetFourParam16.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_CAN_GetFourParam16.vi"/>
+					<Item Name="CTRE_CAN_GetThreeParam16.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_CAN_GetThreeParam16.vi"/>
+					<Item Name="CTRE_CAN_GetThreeParam20.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_CAN_GetThreeParam20.vi"/>
+					<Item Name="CTRE_CAN_GetTwoParam16.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_CAN_GetTwoParam16.vi"/>
+					<Item Name="CTRE_PigeonIMU_CalibrationMode.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_CalibrationMode.ctl"/>
+					<Item Name="CTRE_PigeonIMU_ConnectionType.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_ConnectionType.ctl"/>
+					<Item Name="CTRE_PigeonIMU_DeviceRef.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_DeviceRef.ctl"/>
+					<Item Name="CTRE_PigeonIMU_EnterCalibration.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_EnterCalibration.vi"/>
+					<Item Name="CTRE_PigeonIMU_GetAll.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_GetAll.vi"/>
+					<Item Name="CTRE_PigeonIMU_GetStatusString.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_GetStatusString.vi"/>
+					<Item Name="CTRE_PigeonIMU_Global.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_Global.vi"/>
+					<Item Name="CTRE_PigeonIMU_GlobalControl.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_GlobalControl.ctl"/>
+					<Item Name="CTRE_PigeonIMU_GlobalOps.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_GlobalOps.ctl"/>
+					<Item Name="CTRE_PigeonIMU_GlobalStatus.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_GlobalStatus.ctl"/>
+					<Item Name="CTRE_PigeonIMU_MessageIDs.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_MessageIDs.ctl"/>
+					<Item Name="CTRE_PigeonIMU_MotionDriverState.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_MotionDriverState.ctl"/>
+					<Item Name="CTRE_PigeonIMU_Open.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_Open.vi"/>
+					<Item Name="CTRE_PigeonIMU_Open_CAN.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_Open_CAN.vi"/>
+					<Item Name="CTRE_PigeonIMU_Open_TalonSRX.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_Open_TalonSRX.vi"/>
+					<Item Name="CTRE_PigeonIMU_Params.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_Params.ctl"/>
+					<Item Name="CTRE_PigeonIMU_PigeonState.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_PigeonState.ctl"/>
+					<Item Name="CTRE_PigeonIMU_Receive.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_Receive.vi"/>
+					<Item Name="CTRE_PigeonIMU_RefNumRegistryGet.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_RefNumRegistryGet.vi"/>
+					<Item Name="CTRE_PigeonIMU_RefNumRegistrySet.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_RefNumRegistrySet.vi"/>
+					<Item Name="CTRE_PigeonIMU_SetAccumZAngle.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_SetAccumZAngle.vi"/>
+					<Item Name="CTRE_PigeonIMU_SetCompass.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_SetCompass.vi"/>
+					<Item Name="CTRE_PigeonIMU_SetFusedHeading.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_SetFusedHeading.vi"/>
+					<Item Name="CTRE_PigeonIMU_SetParameter.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_SetParameter.vi"/>
+					<Item Name="CTRE_PigeonIMU_SetStatusFrameRate.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_SetStatusFrameRate.vi"/>
+					<Item Name="CTRE_PigeonIMU_SetTempCompensationEnable.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_SetTempCompensationEnable.vi"/>
+					<Item Name="CTRE_PigeonIMU_SetYaw.vi" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_SetYaw.vi"/>
+					<Item Name="CTRE_PigeonIMU_StatusFrameRate.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_StatusFrameRate.ctl"/>
+					<Item Name="CTRE_PigeonIMU_TareType.ctl" Type="VI" URL="../Libraries/TalonSRX/Pigeon/CTRE_PigeonIMU_TareType.ctl"/>
+					<Item Name="dir.mnu" Type="Document" URL="../Libraries/TalonSRX/Pigeon/dir.mnu"/>
+				</Item>
+				<Item Name="TalonSRX" Type="Folder">
+					<Item Name="CTRE_CANTalonSRX_ConfigCurrentLimit.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/CTRE_CANTalonSRX_ConfigCurrentLimit.vi"/>
+					<Item Name="CTRE_CANTalonSRX_ConfigMotionMagic.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/CTRE_CANTalonSRX_ConfigMotionMagic.vi"/>
+					<Item Name="dir.mnu" Type="Document" URL="../Libraries/TalonSRX/TalonSRX/dir.mnu"/>
+					<Item Name="WPI_CANTalonSRX_APIControlMode.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_APIControlMode.ctl"/>
+					<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
+					<Item Name="WPI_CANTalonSRX_BrakeOverride.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_BrakeOverride.ctl"/>
+					<Item Name="WPI_CANTalonSRX_ChangeMode.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ChangeMode.vi"/>
+					<Item Name="WPI_CANTalonSRX_ConfigAutoClearOnIdx.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ConfigAutoClearOnIdx.vi"/>
+					<Item Name="WPI_CANTalonSRX_ConfigBrakeCoast.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ConfigBrakeCoast.vi"/>
+					<Item Name="WPI_CANTalonSRX_ConfigEnabledLimits.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ConfigEnabledLimits.vi"/>
+					<Item Name="WPI_CANTalonSRX_ConfigEncoderCodesPerLine.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ConfigEncoderCodesPerLine.vi"/>
+					<Item Name="WPI_CANTalonSRX_ConfigLimitSwitches.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ConfigLimitSwitches.vi"/>
+					<Item Name="WPI_CANTalonSRX_ConfigNominalClosedLoopOutput.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ConfigNominalClosedLoopOutput.vi"/>
+					<Item Name="WPI_CANTalonSRX_ConfigPeakClosedLoopOutput.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ConfigPeakClosedLoopOutput.vi"/>
+					<Item Name="WPI_CANTalonSRX_ConfigPotenNumberTurns.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ConfigPotenNumberTurns.vi"/>
+					<Item Name="WPI_CANTalonSRX_ConfigSoftLimits.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ConfigSoftLimits.vi"/>
+					<Item Name="WPI_CANTalonSRX_ConfigStatusFrameRate.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ConfigStatusFrameRate.vi"/>
+					<Item Name="WPI_CANTalonSRX_ControlMode.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ControlMode.ctl"/>
+					<Item Name="WPI_CANTalonSRX_DeduceControlIMsgId.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_DeduceControlIMsgId.vi"/>
+					<Item Name="WPI_CANTalonSRX_Disable.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_Disable.vi"/>
+					<Item Name="WPI_CANTalonSRX_Enable.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_Enable.vi"/>
+					<Item Name="WPI_CANTalonSRX_EnableLegacyControl.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_EnableLegacyControl.vi"/>
+					<Item Name="WPI_CANTalonSRX_FeedbackSelect.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_FeedbackSelect.ctl"/>
+					<Item Name="WPI_CANTalonSRX_GetOutput.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_GetOutput.vi"/>
+					<Item Name="WPI_CANTalonSRX_GetPID.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_GetPID.vi"/>
+					<Item Name="WPI_CANTalonSRX_GetStatus.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_GetStatus.vi"/>
+					<Item Name="WPI_CANTalonSRX_Global.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_Global.vi"/>
+					<Item Name="WPI_CANTalonSRX_GlobalControl.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_GlobalControl.ctl"/>
+					<Item Name="WPI_CANTalonSRX_GlobalOps.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_GlobalOps.ctl"/>
+					<Item Name="WPI_CANTalonSRX_GlobalStatus.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_GlobalStatus.ctl"/>
+					<Item Name="WPI_CANTalonSRX_MessageIDs.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_MessageIDs.ctl"/>
+					<Item Name="WPI_CANTalonSRX_MotionProfile_IterateFlowControl.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_MotionProfile_IterateFlowControl.vi"/>
+					<Item Name="WPI_CANTalonSRX_MotionProfile_TrajGlobal.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_MotionProfile_TrajGlobal.vi"/>
+					<Item Name="WPI_CANTalonSRX_MotionProfileTrajectoryPt.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_MotionProfileTrajectoryPt.ctl"/>
+					<Item Name="WPI_CANTalonSRX_Open.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_Open.vi"/>
+					<Item Name="WPI_CANTalonSRX_Params.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_Params.ctl"/>
+					<Item Name="WPI_CANTalonSRX_Receive.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_Receive.vi"/>
+					<Item Name="WPI_CANTalonSRX_RequestParameter.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_RequestParameter.vi"/>
+					<Item Name="WPI_CANTalonSRX_ResetIntegralAccumulator.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ResetIntegralAccumulator.vi"/>
+					<Item Name="WPI_CANTalonSRX_ScaleUnits.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_ScaleUnits.vi"/>
+					<Item Name="WPI_CANTalonSRX_Send.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_Send.vi"/>
+					<Item Name="WPI_CANTalonSRX_SendMotionProfile.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_SendMotionProfile.vi"/>
+					<Item Name="WPI_CANTalonSRX_SetAllowableClosedLoopError.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_SetAllowableClosedLoopError.vi"/>
+					<Item Name="WPI_CANTalonSRX_SetControlFrameRate.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_SetControlFrameRate.vi"/>
+					<Item Name="WPI_CANTalonSRX_SetOutput.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_SetOutput.vi"/>
+					<Item Name="WPI_CANTalonSRX_SetParameter.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_SetParameter.vi"/>
+					<Item Name="WPI_CANTalonSRX_SetPID.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_SetPID.vi"/>
+					<Item Name="WPI_CANTalonSRX_SetReference.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_SetReference.vi"/>
+					<Item Name="WPI_CANTalonSRX_SetSensorPosition.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_SetSensorPosition.vi"/>
+					<Item Name="WPI_CANTalonSRX_SetVoltageCompensationRate.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_SetVoltageCompensationRate.vi"/>
+					<Item Name="WPI_CANTalonSRX_SetVoltageRampRate.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_SetVoltageRampRate.vi"/>
+					<Item Name="WPI_CANTalonSRX_StatusFrame.ctl" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/WPI_CANTalonSRX_StatusFrame.ctl"/>
+				</Item>
+			</Item>
+		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
@@ -156,6 +274,29 @@ AddOutputFilter chunkFilter
 				<Item Name="Convert String to NT String Array Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert String to NT String Array Buffer.vi"/>
 				<Item Name="Convert String to NT String Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert String to NT String Buffer.vi"/>
 				<Item Name="Create Actual Table Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Create Actual Table Name.vi"/>
+				<Item Name="CTRE_CAN_GetFourParam16.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_CAN_GetFourParam16.vi"/>
+				<Item Name="CTRE_CAN_GetThreeParam16.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_CAN_GetThreeParam16.vi"/>
+				<Item Name="CTRE_CAN_GetThreeParam20.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_CAN_GetThreeParam20.vi"/>
+				<Item Name="CTRE_CAN_GetTwoParam16.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_CAN_GetTwoParam16.vi"/>
+				<Item Name="CTRE_PigeonIMU_CalibrationMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon/CTRE_PigeonIMU_CalibrationMode.ctl"/>
+				<Item Name="CTRE_PigeonIMU_CalibrationMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_CalibrationMode.ctl"/>
+				<Item Name="CTRE_PigeonIMU_ConnectionType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_ConnectionType.ctl"/>
+				<Item Name="CTRE_PigeonIMU_DeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_DeviceRef.ctl"/>
+				<Item Name="CTRE_PigeonIMU_GetAll.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_GetAll.vi"/>
+				<Item Name="CTRE_PigeonIMU_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_Global.vi"/>
+				<Item Name="CTRE_PigeonIMU_GlobalControl.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_GlobalControl.ctl"/>
+				<Item Name="CTRE_PigeonIMU_GlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_GlobalOps.ctl"/>
+				<Item Name="CTRE_PigeonIMU_GlobalStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_GlobalStatus.ctl"/>
+				<Item Name="CTRE_PigeonIMU_MessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_MessageIDs.ctl"/>
+				<Item Name="CTRE_PigeonIMU_Open_CAN.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_Open_CAN.vi"/>
+				<Item Name="CTRE_PigeonIMU_Open_TalonSRX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_Open_TalonSRX.vi"/>
+				<Item Name="CTRE_PigeonIMU_Params.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_Params.ctl"/>
+				<Item Name="CTRE_PigeonIMU_PigeonState.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon/CTRE_PigeonIMU_PigeonState.ctl"/>
+				<Item Name="CTRE_PigeonIMU_PigeonState.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_PigeonState.ctl"/>
+				<Item Name="CTRE_PigeonIMU_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_Receive.vi"/>
+				<Item Name="CTRE_PigeonIMU_SetParameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_SetParameter.vi"/>
+				<Item Name="CTRE_PigeonIMU_StatusFrameRate.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_StatusFrameRate.ctl"/>
+				<Item Name="CTRE_PigeonIMU_TareType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_TareType.ctl"/>
 				<Item Name="Decode String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Decode String Array.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -180,6 +321,8 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_DIOWriteSlowValueRelayFwd.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteSlowValueRelayFwd.vi"/>
 				<Item Name="FPGA_DIOWriteSlowValueRelayRev.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteSlowValueRelayRev.vi"/>
 				<Item Name="FPGA_NIFPGAInterfaceFPGAResourceConstant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/FPGA_NIFPGAInterfaceFPGAResourceConstant.vi"/>
+				<Item Name="FPGA_SPI_Write_EnableDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPI_Write_EnableDIO.vi"/>
+				<Item Name="FPGA_SPIWriteChipSelectActiveHigh.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWriteChipSelectActiveHigh.vi"/>
 				<Item Name="FPGA_SystemAsync VI Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemAsync VI Agent.vi"/>
 				<Item Name="FPGA_SystemAsynch VI Registration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemAsynch VI Registration.vi"/>
 				<Item Name="FPGA_SystemERRWrongVersion.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemERRWrongVersion.vi"/>
@@ -188,12 +331,19 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_SystemGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemGet.vi"/>
 				<Item Name="FPGA_SystemOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemOpen.vi"/>
 				<Item Name="FPGA_SystemStart Async Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemStart Async Agent.vi"/>
+				<Item Name="FPGA_UtilitiesRead LocalTime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Utilities/FPGA_UtilitiesRead LocalTime.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="GetSystemError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/GetSystemError.vi"/>
 				<Item Name="Handle Dirty Elements.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Handle Dirty Elements.vi"/>
 				<Item Name="Handle Dirty Fields for a Connection.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Handle Dirty Fields for a Connection.vi"/>
 				<Item Name="Handle Dirty Flags.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Handle Dirty Flags.vi"/>
 				<Item Name="Handle Persistent Fields.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Handle Persistent Fields.vi"/>
 				<Item Name="i2c_bus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2c_bus.ctl"/>
+				<Item Name="i2clib_close.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_close.vi"/>
+				<Item Name="i2clib_open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_open.vi"/>
+				<Item Name="i2clib_read.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_read.vi"/>
+				<Item Name="i2clib_write.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_write.vi"/>
+				<Item Name="i2clib_writeread.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_writeread.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -209,6 +359,11 @@ AddOutputFilter chunkFilter
 				<Item Name="Manage Connection List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Connection List.vi"/>
 				<Item Name="Manage Dirty Field ID List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Dirty Field ID List.vi"/>
 				<Item Name="NetComm_AllianceStation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_AllianceStation.ctl"/>
+				<Item Name="NetComm_CAN_CloseStreamSession.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_CloseStreamSession.vi"/>
+				<Item Name="NetComm_CAN_OpenStreamSession.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_OpenStreamSession.vi"/>
+				<Item Name="NetComm_CAN_ReadStreamSession.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_ReadStreamSession.vi"/>
+				<Item Name="NetComm_CAN_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_Receive.vi"/>
+				<Item Name="NetComm_CAN_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_Send.vi"/>
 				<Item Name="NetComm_ControlWord.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_ControlWord.ctl"/>
 				<Item Name="NetComm_getAllianceStation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getAllianceStation.vi"/>
 				<Item Name="NetComm_getControlWord.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getControlWord.vi"/>
@@ -276,6 +431,12 @@ AddOutputFilter chunkFilter
 				<Item Name="Skip to RPC Outputs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Skip to RPC Outputs.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="spi_bus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spi_bus.ctl"/>
+				<Item Name="spilib_close.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_close.vi"/>
+				<Item Name="spilib_open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_open.vi"/>
+				<Item Name="spilib_read.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_read.vi"/>
+				<Item Name="spilib_setopts.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_setopts.vi"/>
+				<Item Name="spilib_setspeed.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_setspeed.vi"/>
+				<Item Name="spilib_writeread.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_writeread.vi"/>
 				<Item Name="String Matches Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/String Matches Pattern.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Table Manager.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Table Manager.vi"/>
@@ -292,6 +453,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Update Other Clients.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Update Other Clients.vi"/>
 				<Item Name="Usage Statistics.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Usage Statistics.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="WPI_Camera CGI Parse for Exposure.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_Camera CGI Parse for Exposure.vi"/>
 				<Item Name="WPI_Camera CGI Parse for WB.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_Camera CGI Parse for WB.vi"/>
@@ -367,6 +529,32 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CameraWait for Raw Image String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraWait for Raw Image String.vi"/>
 				<Item Name="WPI_CameraWhite Balance Values.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraWhite Balance Values.ctl"/>
 				<Item Name="WPI_CameraWhiteBalanceConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/WPI_CameraWhiteBalanceConstants.vi"/>
+				<Item Name="WPI_CANTalonSRX_APIControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_APIControlMode.ctl"/>
+				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
+				<Item Name="WPI_CANTalonSRX_BrakeOverride.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_BrakeOverride.ctl"/>
+				<Item Name="WPI_CANTalonSRX_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ControlMode.ctl"/>
+				<Item Name="WPI_CANTalonSRX_DeduceControlIMsgId.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_DeduceControlIMsgId.vi"/>
+				<Item Name="WPI_CANTalonSRX_Disable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_Disable.vi"/>
+				<Item Name="WPI_CANTalonSRX_Enable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_Enable.vi"/>
+				<Item Name="WPI_CANTalonSRX_FeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_FeedbackSelect.ctl"/>
+				<Item Name="WPI_CANTalonSRX_GetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_GetOutput.vi"/>
+				<Item Name="WPI_CANTalonSRX_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_Global.vi"/>
+				<Item Name="WPI_CANTalonSRX_GlobalControl.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_GlobalControl.ctl"/>
+				<Item Name="WPI_CANTalonSRX_GlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_GlobalOps.ctl"/>
+				<Item Name="WPI_CANTalonSRX_GlobalStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_GlobalStatus.ctl"/>
+				<Item Name="WPI_CANTalonSRX_MessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_MessageIDs.ctl"/>
+				<Item Name="WPI_CANTalonSRX_MotionProfile_IterateFlowControl.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_MotionProfile_IterateFlowControl.vi"/>
+				<Item Name="WPI_CANTalonSRX_MotionProfile_TrajGlobal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_MotionProfile_TrajGlobal.vi"/>
+				<Item Name="WPI_CANTalonSRX_MotionProfileTrajectoryPt.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_MotionProfileTrajectoryPt.ctl"/>
+				<Item Name="WPI_CANTalonSRX_Params.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_Params.ctl"/>
+				<Item Name="WPI_CANTalonSRX_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_Receive.vi"/>
+				<Item Name="WPI_CANTalonSRX_RequestParameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_RequestParameter.vi"/>
+				<Item Name="WPI_CANTalonSRX_ScaleUnits.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ScaleUnits.vi"/>
+				<Item Name="WPI_CANTalonSRX_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_Send.vi"/>
+				<Item Name="WPI_CANTalonSRX_SetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetOutput.vi"/>
+				<Item Name="WPI_CANTalonSRX_SetParameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetParameter.vi"/>
+				<Item Name="WPI_CANTalonSRX_SetSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetSensorPosition.vi"/>
+				<Item Name="WPI_CANTalonSRX_StatusFrame.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_StatusFrame.ctl"/>
 				<Item Name="WPI_DefaultPWMConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_DefaultPWMConstants.vi"/>
 				<Item Name="WPI_DigitalModuleDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleDeviceRef.ctl"/>
 				<Item Name="WPI_DigitalModuleGetPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleGetPWM.vi"/>
@@ -390,6 +578,14 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_ERRAcquireInvalidPWMChannelIdx.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_ERRAcquireInvalidPWMChannelIdx.vi"/>
 				<Item Name="WPI_ERRPwmChannelAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_ERRPwmChannelAllocated.vi"/>
 				<Item Name="WPI_GetSetVariantRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_GetSetVariantRefNum.vi"/>
+				<Item Name="WPI_I2C_ERRI2CAlreadyAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2C_ERRI2CAlreadyAllocated.vi"/>
+				<Item Name="WPI_I2C_ERRInvalidI2C_Index.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2C_ERRInvalidI2C_Index.vi"/>
+				<Item Name="WPI_I2CBusCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CBusCache.vi"/>
+				<Item Name="WPI_I2CClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CClose.vi"/>
+				<Item Name="WPI_I2CDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CDevRef.ctl"/>
+				<Item Name="WPI_I2COpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2COpen.vi"/>
+				<Item Name="WPI_I2CRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CRead.vi"/>
+				<Item Name="WPI_I2CWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CWrite.vi"/>
 				<Item Name="WPI_JoystickArcadeMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickArcadeMapping.vi"/>
 				<Item Name="WPI_JoystickButtonSpinMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickButtonSpinMapping.vi"/>
 				<Item Name="WPI_JoystickClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickClose.vi"/>
@@ -487,8 +683,27 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SafetyOutputConfigMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputConfigMenu.ctl"/>
 				<Item Name="WPI_SafetyOutputEngine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputEngine.vi"/>
 				<Item Name="WPI_SafetyOutputVIRefnumList.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputVIRefnumList.vi"/>
+				<Item Name="WPI_SerialPortClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortClose.vi"/>
+				<Item Name="WPI_SerialPortFlush.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortFlush.vi"/>
+				<Item Name="WPI_SerialPortGetBytesReceived.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortGetBytesReceived.vi"/>
+				<Item Name="WPI_SerialPortRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortRead.vi"/>
+				<Item Name="WPI_SerialPortRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortRef.ctl"/>
+				<Item Name="WPI_SerialPortReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortReset.vi"/>
+				<Item Name="WPI_SerialPortTermination.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortTermination.vi"/>
+				<Item Name="WPI_SerialPortWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortWrite.vi"/>
+				<Item Name="WPI_SPI_ERRInvalidSPI_Index.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPI_ERRInvalidSPI_Index.vi"/>
+				<Item Name="WPI_SPI_ERRSPIAlreadyAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPI_ERRSPIAlreadyAllocated.vi"/>
+				<Item Name="WPI_SPIBusCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBusCache.vi"/>
+				<Item Name="WPI_SPIBusCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBusCacheOp.ctl"/>
+				<Item Name="WPI_SPIClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIClose.vi"/>
+				<Item Name="WPI_SPIDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIDevRef.ctl"/>
+				<Item Name="WPI_SPIMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIMode.ctl"/>
+				<Item Name="WPI_SPIOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIOpen.vi"/>
+				<Item Name="WPI_SPIRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIRead.vi"/>
+				<Item Name="WPI_SPIWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIWrite.vi"/>
 				<Item Name="WPI_UtilitiesERRGetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesERRGetRefNum.vi"/>
 				<Item Name="WPI_UtilitiesFRC Build Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC Build Error.vi"/>
+				<Item Name="WPI_UtilitiesFRC FPGATime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC FPGATime.vi"/>
 				<Item Name="WPI_UtilitiesFRCAutomaticValuePublisher.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRCAutomaticValuePublisher.vi"/>
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
@@ -511,6 +726,8 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="WPI_SerialPort_USB.ctl" Type="VI" URL="../Libraries/NI WPI/WPI_SerialPort_USB.ctl"/>
+			<Item Name="WPI_SerialPortOpen_USB.vi" Type="VI" URL="../Libraries/NI WPI/WPI_SerialPortOpen_USB.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
