@@ -240,6 +240,16 @@ AddOutputFilter chunkFilter
 				<Item Name="Talon SRX Set RPM.vi" Type="VI" URL="../Talon SRX Set RPM.vi"/>
 				<Item Name="Talon SRX Set PID.vi" Type="VI" URL="../Talon SRX Set PID.vi"/>
 				<Item Name="Talon SRX Set POS.vi" Type="VI" URL="../Talon SRX Set POS.vi"/>
+				<Item Name="Talon SRX Set Percent VBUS.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/Talon SRX Set Percent VBUS.vi"/>
+			</Item>
+			<Item Name="Hopper" Type="Folder">
+				<Item Name="Anti Jam.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/Anti Jam.vi"/>
+			</Item>
+			<Item Name="Climber" Type="Folder">
+				<Item Name="Climber.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/Climber.vi"/>
+			</Item>
+			<Item Name="Intake" Type="Folder">
+				<Item Name="Intake.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/Intake.vi"/>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -252,6 +262,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="Deadband.vi" Type="VI" URL="../Deadband.vi"/>
 			<Item Name="Drive Code.vi" Type="VI" URL="../Drive Code.vi"/>
+			<Item Name="Manual Shooter.vi" Type="VI" URL="../Libraries/TalonSRX/TalonSRX/Manual Shooter.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -320,8 +331,11 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_AIChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIChannel.ctl"/>
 				<Item Name="FPGA_AIDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIDevRef.ctl"/>
 				<Item Name="FPGA_AIERRInvalidAccumulatorChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIERRInvalidAccumulatorChannel.vi"/>
+				<Item Name="FPGA_AIERRInvalidAnalogChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIERRInvalidAnalogChannel.vi"/>
 				<Item Name="FPGA_AIOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIOpen.vi"/>
 				<Item Name="FPGA_AIOversampleBits.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIOversampleBits.vi"/>
+				<Item Name="FPGA_AIReadLSBWeight.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadLSBWeight.vi"/>
+				<Item Name="FPGA_AIReadOffset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadOffset.vi"/>
 				<Item Name="FPGA_AIWriteAccumulatorReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIWriteAccumulatorReset.vi"/>
 				<Item Name="FPGA_AIWriteConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIWriteConfig.vi"/>
 				<Item Name="FPGA_AIWriteScanList.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIWriteScanList.vi"/>
@@ -347,6 +361,7 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_DIOWriteSlowValueRelayRev.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteSlowValueRelayRev.vi"/>
 				<Item Name="FPGA_MapDIOChannelEnumToModuleLine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_MapDIOChannelEnumToModuleLine.vi"/>
 				<Item Name="FPGA_NIFPGAInterfaceFPGAResourceConstant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/FPGA_NIFPGAInterfaceFPGAResourceConstant.vi"/>
+				<Item Name="FPGA_ReadAI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_ReadAI.vi"/>
 				<Item Name="FPGA_SPI_Write_EnableDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPI_Write_EnableDIO.vi"/>
 				<Item Name="FPGA_SPIWriteChipSelectActiveHigh.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWriteChipSelectActiveHigh.vi"/>
 				<Item Name="FPGA_SystemAsync VI Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemAsync VI Agent.vi"/>
@@ -487,12 +502,16 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_AnalogChannelERRAcquireInvalidChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelERRAcquireInvalidChannel.vi"/>
 				<Item Name="WPI_AnalogChannelERRChannelAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelERRChannelAllocated.vi"/>
 				<Item Name="WPI_AnalogChannelERRScanlistInvalid.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelERRScanlistInvalid.vi"/>
+				<Item Name="WPI_AnalogChannelGetVoltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelGetVoltage.vi"/>
 				<Item Name="WPI_AnalogChannelOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelOpen.vi"/>
+				<Item Name="WPI_AnalogChannelRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelRefNum Registry Get.vi"/>
 				<Item Name="WPI_AnalogChannelRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelRefNum Registry Set.vi"/>
 				<Item Name="WPI_AnalogChannelSetSampleRate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelSetSampleRate.vi"/>
+				<Item Name="WPI_AnalogChannelToAnalogModule.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelToAnalogModule.vi"/>
 				<Item Name="WPI_AnalogChannelWARNSampleRateTooFast.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelWARNSampleRateTooFast.vi"/>
 				<Item Name="WPI_AnalogModuleDefaults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogModule/WPI_AnalogModuleDefaults.vi"/>
 				<Item Name="WPI_AnalogModuleDevStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogModule/WPI_AnalogModuleDevStatus.ctl"/>
+				<Item Name="WPI_AnalogModuleGetVoltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogModule/WPI_AnalogModuleGetVoltage.vi"/>
 				<Item Name="WPI_AnalogModuleOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogModule/WPI_AnalogModuleOpen.vi"/>
 				<Item Name="WPI_AnalogOutputChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogOutput/WPI_AnalogOutputChannel.ctl"/>
 				<Item Name="WPI_Camera CGI Parse for Exposure.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_Camera CGI Parse for Exposure.vi"/>
@@ -573,6 +592,14 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CAN_PCMGlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMGlobalOps.ctl"/>
 				<Item Name="WPI_CAN_PCMMessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMMessageIDs.ctl"/>
 				<Item Name="WPI_CAN_PCMSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMSend.vi"/>
+				<Item Name="WPI_CAN_PDPCommands.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPCommands.ctl"/>
+				<Item Name="WPI_CAN_PDPDecode4Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPDecode4Currents.vi"/>
+				<Item Name="WPI_CAN_PDPGetAll.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPGetAll.ctl"/>
+				<Item Name="WPI_CAN_PDPGlobal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPGlobal.vi"/>
+				<Item Name="WPI_CAN_PDPGlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPGlobalOps.ctl"/>
+				<Item Name="WPI_CAN_PDPMessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPMessageIDs.ctl"/>
+				<Item Name="WPI_CAN_PDPReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPReceive.vi"/>
+				<Item Name="WPI_CAN_PDPSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPSend.vi"/>
 				<Item Name="WPI_CANTalonSRX_BrakeOverride.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_BrakeOverride.ctl"/>
 				<Item Name="WPI_CANTalonSRX_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_Global.vi"/>
 				<Item Name="WPI_CANTalonSRX_GlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_GlobalOps.ctl"/>
@@ -639,13 +666,11 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_I2CRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CRead.vi"/>
 				<Item Name="WPI_I2CWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CWrite.vi"/>
 				<Item Name="WPI_JoystickArcadeMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickArcadeMapping.vi"/>
-				<Item Name="WPI_JoystickButtonSpinMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickButtonSpinMapping.vi"/>
 				<Item Name="WPI_JoystickClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickClose.vi"/>
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
 				<Item Name="WPI_JoystickDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDevRef.ctl"/>
 				<Item Name="WPI_JoystickGetValues.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetValues.vi"/>
 				<Item Name="WPI_JoystickOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickOpen.vi"/>
-				<Item Name="WPI_JoystickRatioCurveMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRatioCurveMapping.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Set.vi"/>
 				<Item Name="WPI_MotorControlClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlClose.vi"/>
@@ -683,6 +708,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_MXP SPI Bus to first MXP Pin.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP SPI Bus to first MXP Pin.vi"/>
 				<Item Name="WPI_MXP_ChannelCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP_ChannelCache.vi"/>
 				<Item Name="WPI_MXP_Grab Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP_Grab Mutex.vi"/>
+				<Item Name="WPI_Power Get PDP Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Currents.vi"/>
 				<Item Name="WPI_PWMChannelCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMChannelCache.vi"/>
 				<Item Name="WPI_PWMChannelCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMChannelCacheOp.ctl"/>
 				<Item Name="WPI_PWMClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMClose.vi"/>
@@ -716,26 +742,22 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_RelaySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelaySet.vi"/>
 				<Item Name="WPI_RelaySetArraysInCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelaySetArraysInCache.vi"/>
 				<Item Name="WPI_RelayValue.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayValue.ctl"/>
-				<Item Name="WPI_RobotDriveArcadeDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive.vi"/>
-				<Item Name="WPI_RobotDriveArcadeDrive_ButtonSpin.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_ButtonSpin.vi"/>
-				<Item Name="WPI_RobotDriveArcadeDrive_RatioCurve.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_RatioCurve.vi"/>
 				<Item Name="WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi"/>
 				<Item Name="WPI_RobotDriveClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveClose.vi"/>
-				<Item Name="WPI_RobotDriveDelayAndUpdateSafety.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDelayAndUpdateSafety.vi"/>
 				<Item Name="WPI_RobotDriveDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDevRef.ctl"/>
 				<Item Name="WPI_RobotDriveDoesDevRefExist.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDoesDevRefExist.vi"/>
 				<Item Name="WPI_RobotDriveGetMotorControlReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveGetMotorControlReference.vi"/>
 				<Item Name="WPI_RobotDriveMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMotors.vi"/>
 				<Item Name="WPI_RobotDriveMotorSelectorEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMotorSelectorEnum.ctl"/>
-				<Item Name="WPI_RobotDriveOpen4Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4Motor.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithExistingMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithExistingMotors.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithJaguar.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithSD540.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithSD540.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithSPARK.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithSPARK.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithTalon.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithTalon.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithTalonSRX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithTalonSRX.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithVictor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithVictor.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithVictorSP.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithVictorSP.vi"/>
+				<Item Name="WPI_RobotDriveOpen2Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2Motor.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithExistingMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithExistingMotors.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithJaguar.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithSD540.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithSD540.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithSPARK.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithSPARK.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithTalon.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithTalon.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithTalonSRX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithTalonSRX.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithVictor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithVictor.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithVictorSP.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithVictorSP.vi"/>
 				<Item Name="WPI_RobotDriveRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Get.vi"/>
 				<Item Name="WPI_RobotDriveRefNum Registry Read Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Read Name.vi"/>
 				<Item Name="WPI_RobotDriveRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Set.vi"/>
@@ -829,7 +851,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
